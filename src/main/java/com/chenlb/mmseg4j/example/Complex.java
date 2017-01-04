@@ -53,6 +53,7 @@ public class Complex {
 	
 	protected void run(String[] args) throws IOException {
 		String txt = "京华时报２００８年1月23日报道 昨天，受一股来自中西伯利亚的强冷空气影响，本市出现大风降温天气，白天最高气温只有零下7摄氏度，同时伴有6到7级的偏北风。";
+		txt="大数据是一门新兴的互联网技术";
 		
 		if(args.length > 0) {
 			txt = args[0];
